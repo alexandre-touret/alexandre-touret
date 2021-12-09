@@ -7,6 +7,7 @@
 * Software architecture
 * Cloud computing
 * Observability 
+* Java platform with Spring stack
 
 ## 🌱 I’m currently learning 
 * Google Cloud Platform
@@ -24,6 +25,6 @@
 Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https://twitter.com/touret_alex)
 
 
-| Quelques statistiques | | |
+| Tools, Languages | | |
 | :---: |:---:| :---:|
 | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=alexandre-touret&theme=radical&hide_langs_below=8&count_private=true)     |  | ![](https://github-readme-stats.vercel.app/api?username=alexandre-touret&show_icons=true&theme=radical&count_private=true) |
