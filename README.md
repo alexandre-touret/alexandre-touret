@@ -13,8 +13,8 @@
 * Google Cloud Platform
 
 ## 👯 I’m looking to collaborate on 
-* Any (Java & Cloud oriented) open source project 
-* Presenting techconferences
+* Any (Java & Cloud oriented) project 
+* Presenting tech conferences
  
 ## 💬 Ask me about 
 * Software architecture
@@ -23,7 +23,6 @@
 
 ## 📫 How to reach me
 Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https://twitter.com/touret_alex)
-
 
 ## Resume
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
