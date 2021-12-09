@@ -28,6 +28,4 @@ Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https
 
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
 
-| Tools, Languages | | |
-| :---: | :---:|
-| ![](https://github-readme-stats.vercel.app/api/top-langs/?username=alexandre-touret&theme=radical&hide_langs_below=8&count_private=true) | ![](https://github-readme-stats.vercel.app/api?username=alexandre-touret&show_icons=true&theme=radical&count_private=true) |
+[![Alexandre's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkexandre-touret)](https://github.com/anuraghazra/github-readme-stats)
