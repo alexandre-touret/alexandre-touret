@@ -28,4 +28,4 @@ Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https
 
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
 
-[![Alexandre's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkexandre-touret)](https://github.com/anuraghazra/github-readme-stats)
+[![Alexandre's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexandre-touret)](https://github.com/anuraghazra/github-readme-stats)
