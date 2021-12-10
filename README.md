@@ -26,6 +26,3 @@ Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https
 
 ## Resume
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
-
-## Useless stats
-[![Alexandre's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexandre-touret)](https://github.com/anuraghazra/github-readme-stats)
