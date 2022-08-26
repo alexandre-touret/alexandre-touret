@@ -22,9 +22,9 @@ jobs:
         name: Export resume as HTML
         with:
           theme: elegant
-          resume_filepath: resume.json
+          resume_filepath: resume/Alexandre_Touret.resume_EN.json
           # modifies the index.html in-place
-          output_filepath: docs/index.html
+          output_filepath: docs/Alexandre_Touret.resume_EN.html
       - name: Commit published HTML
         id: commit
         run: |
