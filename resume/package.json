@@ -3,8 +3,7 @@
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.17.0",
     "jsonresume-theme-stackunderflow": "^0.0.20",
-    "puppeteer": "^13.0.0",
-    "resume-cli": "^3.0.7",
-    "resumed": "^1.0.3"
+    "resume-cli": "^3.0.7"
+  
   }
 }
