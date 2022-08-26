@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1",
-    "jsonresume-theme-even": "^0.17.0",
-    "jsonresume-theme-stackunderflow": "^0.0.20",
-    "resume-cli": "^3.0.7"
-  
-  }
-}
