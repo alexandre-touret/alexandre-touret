@@ -1,0 +1,186 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alexandre Touret",
+    "label": "Software Architect",
+    "image": "",
+    "email": "alexandre@touret.info",
+    "phone": "+33 6 16 57 29 74",
+    "url": "https://blog.touret.info",
+    "summary": "I am software architect and developer. I usually work on these following topics :\n- Architecture design\n- Coding\n- JAVA ecosystem (JAVAEE , Spring)\n- Cloud computing\n- Distributed architectures\n- CI/CD\n\nI'm interested in these technical fields:\n- Software craftsmanship\n- APIS and software integration\n- Cloud technologies\n- Devops and software industrialization\n- Opensource\n\nI also enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles.",
+    "location": {
+      "countryCode": "FR",
+      "address": "22 rue de la montagne 37530 St Ouen les vignes"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "atouret",
+        "url": "https://www.linkedin.com/in/atouret/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Worldline Mobility & e-Transactional Services",
+      "position": "Senior Architect",
+      "startDate": "2022-02-28",
+      "endDate": "",
+      "highlights": ["Transport & Mobility "],
+      "url": "https://www.worldline.com",
+      "location": "Tours, Centre-Val de Loire, France"
+    },
+    {
+      "name": "Worldline Financial Services",
+      "position": "Software Architect",
+      "startDate": "2018-05-31",
+      "endDate": "2022-01-31",
+      "highlights": ["Payment & Financial Services"],
+      "summary": "As part of a development team in the French Acquiring Department:\n\n- Technical management of developers and lead developers\n- Design and promotion of development workflows which promote code quality in our projects\n- Attend and support PCI DSS audits\n- Promotion of best practices by conducting training sessions and workshops\n- GITLABCI CI/CD pipelines design and development\n- Software engineering on JAVA platform (JAVAEE and SPRING)\n- Software design\n- Pre sales support\n- Technology watch and participation in technical labs\n- Speaker at some internal and external events.\n\nEnvironment: JAVA, SPRING (BOOT,...), JAVAEE, DOCKER, OPENSHIFT (KUBERNETES, HELM), GITLAB, REST, MONGODB, Google Cloud Platform\n\nAs part of the Worldline Expert Community and the Global Architecture Department:\n \nPayment related applications Architecture audit and review\n- Functional and software architecture review\n- Workshop holding to identify potential improvements roadmaps\n- Production platforms risk analysis \nStandards definition and promotion\nOrganising and facilitating workshops (international context) about software architecture.\nSpeaker in french and international tech conferences (Jnation, DevoxxUK, VolcampIO, TouraineTech,...)",
+      "url": "https://www.worldline.com",
+      "location": "Tours, France"
+    },
+    {
+      "name": " Harmonie Mutuelle",
+      "position": "Software Architect",
+      "startDate": "2011-08-31",
+      "endDate": "2018-05-31",
+      "highlights": ["Healthcare","Insurance"],
+      "summary": "BIG DATA\n- POCS with some stacks (KAFKA, IOT,...)\n- Design of a DATAHUB\n\nSOA\n- Project management\n- Setup of TIBCO Business Works\n- CI implementation\n- Design and creation of a Blueprints and design patterns catalog\n\nELK\n- Design and Java development\n- Setup\n\nCI/CD\n- Setup of different tools : JENKINS, SONARQUBE, NEXUS\n- Shared pipeline libraries development\n- SONARQUVE quality gates and profiles creation\n- Code quality and unit testing envangelization\n- Implementation in some projects\n\nSoftware engineering support\n- Support on JEE, SPRING and ESB projects\n\nEnvironment: WEBLOGIC AS, TIBCO BW,SOAP,REST Java(J2SE, J2EE, MAVEN, ANT, JUNIT,JSF, EJB3, JMS),SQL,SIEBEL,Oracle 11, Subversion,JENKINS,SONAR, NEXUS, ELASTICSEARCH, SPARK, Scala\n\n-",
+      "url": "https://www.harmonie-mutuelle.fr/",
+      "location": "Tours, France"
+    },
+    {
+      "name": "Harmonie Mutuelle",
+      "position": "Software Architect / Analyst",
+      "startDate": "2007-09-30",
+      "endDate": "2012-10-31",
+      "highlights": ["Healthcare","Insurance"],
+      "summary": "JAVA EE Development\n- Technical Support\n- Project management of existing application new developments\n- Web services development with SIEBEL CRM\n\nEnvironment: WINDOWS, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, HIBERNATE, STRUTS, JSF, EJB3),ORACLE PORTAL, Services WEB,SQL, Oracle 10, Subversion\n\nORACLE SIEBEL:\n- Technical architecture design\n- Setup and administration of SIEBEL CRM and OBIEE\n- Setup of web services integration with JAVAEE applications\n\nEnvironnement: WINDOWS, SIEBEL CRM 8 et OBIEE",
+      "url": "https://www.harmonie-mutuelle.fr/",
+      "location": "Tours, France"
+    },
+    {
+      "name": "Chamber of Commerce of Paris",
+      "position": "Software Architect",
+      "startDate": "2005-03-31",
+      "endDate": "2007-09-30",
+      "highlights": ["French administration"],
+      "summary": "As architect\n- Design of the JAVAEE platform\n- Design and implementation of the development environment ( standards, tools, ...)\n- Technical support\n- Implementation of an enterprise portal\n- SOA architecture design\n- Development of different frameworks\n\nEnvironnement: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS.",
+      "url": "https://www.cci-paris-idf.fr/fr",
+      "location": "Paris"
+    },
+    {
+      "name": " CELLA GROUP ",
+      "position": "Developer",
+      "startDate": "2004-02-28",
+      "endDate": "2005-03-31",
+      "highlights": [],
+      "summary": "As JAVA technical expert\n- Technical support for developers\n- Training sessions\n- Development of POCS and best practices\n- Development of a document management framework in JAVA",
+      "url": "https://www.linkedin.com/company/cella-group/",
+      "location": "Paris"
+    },
+    {
+      "name": "CGBI",
+      "position": "Developer",
+      "startDate": "2001-11-30",
+      "endDate": "2004-01-31",
+      "highlights": [],
+      "summary": "As JAVA developer:\nJAVA training session\nJAVA best practices documentation\nCreation of a  framework repository \nDesign with UML\nProject management within a team of three developers",
+      "url": "https://www.linkedin.com/company/cgbi/",
+      "location": "Issy les moulineaux"
+    },
+    {
+      "name": "AXLAN",
+      "position": "Developer",
+      "startDate": "2000-09-30",
+      "endDate": "2001-10-31",
+      "highlights": [],
+      "summary": "Development of web sites with JAVAEE\nDevelopment of a financial management solution with JAVA SWING",
+      "url": "",
+      "location": "Jouy en Josas"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université François Rabelais de Tours",
+      "area": "Informatique et Télécom",
+      "studyType": "Maitrise",
+      "startDate": "1998-12-31",
+      "endDate": "2000-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Rabelais de Chinon",
+      "area": "S",
+      "studyType": "Bac",
+      "startDate": "1992-12-31",
+      "endDate": "1995-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Worldline Senior Expert",
+      "date": "2021-07-31",
+      "awarder": "Worldline",
+      "summary": "Expertise Fields : Software Architecture , Software Engineering"
+    },
+    {
+      "title": "Worldline Expert",
+      "date": "2019-07-31",
+      "awarder": "Worldline",
+      "summary": "Expertise Fields : Software Architecture , Software Engineering "
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    
+    {
+      "name": "SOA & API Management",
+      "level": "",
+      "keywords": ["SOA","REST","TIBCO API Gateway","TIBCO Business Works"]
+    },
+    {
+      "name": "Développement",
+      "level": "",
+      "keywords": ["Java","Spring (Boot/Cloud)","UML","Quarkus"]
+    },
+    {
+      "name": "Data",
+      "level": "",
+      "keywords": ["MySQL","Oracle","PostgreSQL","MongoDB","Elasticsearch"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "",
+      "keywords": ["Bash","Python","GitlabCI","Jenkins","SonarQube","Github","GNU/Linux (Ubuntu, Debian, Redhat)"]
+    },
+    {
+      "name": "Cloud",
+      "level": "",
+      "keywords": ["Kubernetes","Openshift","Docker","Google Cloud","Terraform","Ansible"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "Anglais"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
