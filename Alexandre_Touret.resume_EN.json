@@ -7,10 +7,12 @@
     "email": "alexandre@touret.info",
     "phone": "+33 6 16 57 29 74",
     "url": "https://blog.touret.info",
-    "summary": "I am software architect and developer. I usually work on these following topics :\n- Architecture design\n- Coding\n- JAVA ecosystem (JAVAEE , Spring)\n- Cloud computing\n- Distributed architectures\n- CI/CD\n\nI'm interested in these technical fields:\n- Software craftsmanship\n- APIS and software integration\n- Cloud technologies\n- Devops and software industrialization\n- Opensource\n\nI also enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles.",
+    "summary": "I am senior software architect  with 22 years' experience passionate about technology, cloud and development. Throughout my career,I have designed, built and managed systems from small to large in various business contexts such as insurance, financial services or transport industries.\n\n I then enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles.",
     "location": {
       "countryCode": "FR",
-      "address": "22 rue de la montagne 37530 St Ouen les vignes"
+      "city": "St Ouen les Vignes",
+      "postalCode": "37",
+      "address":"22 rue de la montagne"
     },
     "profiles": [
       {
@@ -141,9 +143,9 @@
   "skills": [
     
     {
-      "name": "SOA & API Management",
+      "name": "API Management & Integration",
       "level": "",
-      "keywords": ["SOA","REST","TIBCO API Gateway","TIBCO Business Works"]
+      "keywords": ["REST","Apigee","SOA","TIBCO API Gateway","TIBCO Business Works","ActiveMQ"]
     },
     {
       "name": "Développement",
