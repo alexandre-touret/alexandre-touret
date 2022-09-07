@@ -21,7 +21,7 @@ jobs:
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: elegant
+          theme: paper
           resume_filepath: Alexandre_Touret.resume_EN.json
           # modifies the index.html in-place
           output_filepath: docs/Alexandre_Touret.resume_EN.html

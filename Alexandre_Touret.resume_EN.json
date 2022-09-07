@@ -77,17 +77,19 @@
       "position": "Software Architect / Analyst",
       "startDate": "2007",
       "endDate": "2012",
-      "highlights": ["Healthcare","Insurance"],
-      "summary": "JAVA EE Development\n- Technical Support\n- Project management of existing application new developments\n- Web services development with SIEBEL CRM\n\nEnvironment: WINDOWS, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, HIBERNATE, STRUTS, JSF, EJB3),ORACLE PORTAL, Services WEB,SQL, Oracle 10, Subversion\n\nORACLE SIEBEL:\n- Technical architecture design\n- Setup and administration of SIEBEL CRM and OBIEE\n- Setup of web services integration with JAVAEE applications\n\nEnvironnement: WINDOWS, SIEBEL CRM 8 et OBIEE",
+      "highlights": ["Designed, shipped Siebel CRM and OBIEE platforms and the associated tooling built with Perl",
+      "Maintained and developed new features of the costing application which enabled selling new insurance products",
+      "Built JAVA EE web services reaching Oracle SIEBEL API"],
+      "summary": "Harmonie Mutuelle is one of the leader of the Health Insurance industry. Within the customer relationship management team, I drove the evolution of commercial costing system and was in charge of the setup and integration of ORACLE SIEBEL CRM. With these two platforms, Harmonie Mutuelle deployed and evolved its new products and merge its different commercial offers.",
       "url": "https://www.harmonie-mutuelle.fr/",
       "location": "Tours, France"
     },
     {
-      "name": "Chamber of Commerce of Paris",
+      "name": "Paris Ile-de-France Chamber of Commerce and Industry",
       "position": "Software Architect",
       "startDate": "2005",
       "endDate": "2007",
-      "highlights": ["French administration"],
+      "highlights": ["Designed, built and shippped the JAVA EE platform based on Oracle Application Server"],
       "summary": "As architect\n- Design of the JAVAEE platform\n- Design and implementation of the development environment ( standards, tools, ...)\n- Technical support\n- Implementation of an enterprise portal\n- SOA architecture design\n- Development of different frameworks\n\nEnvironnement: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS.",
       "url": "https://www.cci-paris-idf.fr/fr",
       "location": "Paris"
