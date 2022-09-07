@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alexandre Touret",
+    "label": "Senior Software Architect",
+    "image": "",
+    "email": "alexandre@touret.info",
+    "phone": "+33 6 16 57 29 74",
+    "url": "https://blog.touret.info",
+    "summary": "I am senior software architect with 22 years' experience passionate about technology, cloud and development. Throughout my career,I have designed, built and managed systems from small to large in various business contexts such as insurance, financial services or transport industries.\n\n I then enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles.",
+    "location": {
+      "countryCode": "FR",
+      "city": "St Ouen les Vignes",
+      "postalCode": "37530",
+      "address":"22 rue de la montagne"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "atouret",
+        "url": "https://www.linkedin.com/in/atouret/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Worldline Mobility & e-Transactional Services",
+      "position": "Senior Software Architect",
+      "startDate": "2022-02",
+      "endDate": "",
+      "highlights": ["Drove technical studies on identity management and user federation based on Redhat SSO & OpenID Connect",
+      "Supported developers on CI/CD and Openshift deployment matters",
+      "Built and shipped JAVA Spring & NodeJS based technical micro services on Openshift",
+      "Technologies:  JAVA, SPRING, DOCKER, OPENSHIFT (KUBERNETES, HELM), GITLAB, REST, PostgreSQL, REDHATSSO, Typescript, NodeJS,ARTEMIS"],
+      "summary" :"Within the Mobility & e-Transactional Services, I have been involved in the new electronic ticketing system building of the Ile de France region. This one will impact million of locals and tourists. I have been part of the technical direction, striving with mid and long term complex studies and supporting developers on technical matters. Besides my daily job I usually speak at international tech conferences (e.g. Devoxx BE).",
+      "url": "https://www.worldline.com",
+      "location": "Tours, France"
+    },
+    {
+      "name": "Worldline Financial Services",
+      "position": "Senior Software Architect",
+      "startDate": "2018-05",
+      "endDate": "2022-01",
+      "highlights": ["Promoted best practices for developers and designers",
+      "Designed, built, shpipped and promoted GITLABCI CI/CD pipelines to increase quality across all the french acquiring department projects ",
+      "Drove two PCI DSS audit sessions presenting our software quality standards",
+      "Designed, built cloud native applications on top of Openshift, Spring, Apigee and MongoDB",
+      "Designed, shipped a cloud native application (99.95%SLA, 600+ TPS) on GCP using Kubernetes",
+      "Built and promoted the department technology radar",
+      "Participated to pre sales events",
+      "Led an expert workgroup which was responsible for creating and promoting architecture patterns repository",
+      "Audited three payment applications with strong requirements (99.95%SLA, 600+ TPS,...) reporting recommendations and risk analysis",
+      "Technologies:  JAVA, SPRING (BOOT,...),JAVAEE, DOCKER, OPENSHIFT (KUBERNETES, HELM), GITLAB, REST, MONGODB, Google Cloud Platform"],
+      "summary": "Worldline is the payment industry european leader. Within the french acquiring departement, I led technically an eight development team. Besides my daily job in this Business Unit, I was strongly involved in the Expert Community. I led and drove workgroups (international context) about architecture design & spoke at international tech conferences (DevoxxUK, JNation, SnowCampIO,...).",
+      "url": "https://www.worldline.com",
+      "location": "Tours, France"
+    },
+    {
+      "name": " Harmonie Mutuelle",
+      "company": "test",
+      "position": "Software Architect",
+      "startDate": "2011-02",
+      "endDate": "2018-05",
+      "highlights": ["Led, drove a SOA adoption project, managing eight stakeholders with different profiles (ops, developers, IT architects). This platform aimed to promote service reusability across the Harmonie Mutuelle IT landscape (50+ services)",
+      "Shipped TIBCO Business Works platform and build associated tooling (scripts, CI/CD, monitoring)",
+      "Designed and created SOA standards and blueprints.",
+      "Shipped TIBCO API Management platform and built the associated tooling in Python to expose internal services to customers and partners",
+      "Built a CI platform, processes and libraries based on JENKINS, SONARQUBE and SONARQUBE",
+      "Advocated on code quality, unit testing",
+      "Supported developers on JAVAEE and Spring projects",
+      "Designed a DataHub platform and built POCs against Kafka and Spark"],
+      "summary": "Harmonie Mutuelle is one of the leader of the Health Insurance industry. Within the IT Architecture departement, I was in charge of ",
+      "url": "https://www.harmonie-mutuelle.fr/",
+      "location": "Tours, France"
+    },
+    {
+      "name": "Harmonie Mutuelle",
+      "position": "Software Architect / Analyst",
+      "startDate": "2007-09",
+      "endDate": "2011-02",
+      "highlights": ["Designed, shipped Siebel CRM and OBIEE platforms and the associated tooling built with Perl",
+      "Maintained and developed new features of the costing application which enabled selling new insurance products",
+      "Built JAVA EE web services reaching Oracle SIEBEL API"],
+      "summary": "Harmonie Mutuelle is one of the leader of the Health Insurance industry. Within the customer relationship management team, I drove the evolution of commercial costing system and was in charge of the setup and integration of ORACLE SIEBEL CRM. With these two platforms, Harmonie Mutuelle deployed and evolved its new products and merge its different commercial offers.",
+      "url": "https://www.harmonie-mutuelle.fr/",
+      "location": "Tours, France"
+    },
+    {
+      "name": "Paris Ile-de-France Chamber of Commerce and Industry",
+      "position": "Software Architect",
+      "startDate": "2005",
+      "endDate": "2007",
+      "highlights": ["Designed, built and shippped the JAVA EE platform based on Oracle Application Server",
+    "Provided technical support on Java to 5 developers",
+    "Shipped a portal platform based on Oracle Portal and Drupal",
+  "Technologies: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS"],
+      "summary": "Within the Chamber of Commerce IT department, I drove the adoption of the JAVA EE platform. This one has allowed to deploy applications to our internal and external customers.",
+      "url": "https://www.cci-paris-idf.fr/fr",
+      "location": "Paris"
+    },
+    {
+      "name": " CELLA GROUP ",
+      "position": "Developer",
+      "startDate": "2004",
+      "endDate": "2005",
+      "highlights": [],
+      "summary": "Throughout three missions, I supported JAVA developers, held training sessions and built a document management framework in JAVA",
+      "url": "https://www.linkedin.com/company/cella-group/",
+      "location": "Paris"
+    },
+    {
+      "name": "CGBI",
+      "position": "Developer",
+      "startDate": "2001",
+      "endDate": "2004",
+      "highlights": [""],
+      "summary": "Throughout different missions, I built JAVA EE based applications and held training sessions about JAVA development",
+      "url": "https://www.linkedin.com/company/cgbi/",
+      "location": "Issy les moulineaux, France"
+    },
+    {
+      "name": "AXLAN",
+      "position": "Developer",
+      "startDate": "2000",
+      "endDate": "2001",
+      "highlights": [],
+      "summary": "Built JAVA EE based web sites and a financial management solution with JAVA SWING",
+      "url": "",
+      "location": "Jouy en Josas, France"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université François Rabelais de Tours",
+      "area": "Informatique et Télécom",
+      "studyType": "Maitrise",
+      "startDate": "1998",
+      "endDate": "2000",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Rabelais de Chinon",
+      "area": "S",
+      "studyType": "Bac",
+      "startDate": "1992",
+      "endDate": "1995",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Worldline Senior Expert",
+      "date": "2021",
+      "awarder": "Worldline",
+      "summary": "Expertise Fields : Software Architecture , Software Engineering"
+    },
+    {
+      "title": "Worldline Expert",
+      "date": "2019",
+      "awarder": "Worldline",
+      "summary": "Expertise Fields : Software Architecture , Software Engineering"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "API & Integration",
+      "level": "",
+      "keywords": ["API Design","REST","Apigee","SOA","TIBCO API Gateway","TIBCO Business Works","ActiveMQ"]
+    },
+    {
+      "name": "Development",
+      "level": "",
+      "keywords": ["Java","Spring (Boot/Cloud)","JavaScript","UML","Quarkus"]
+    },
+    {
+      "name": "Data",
+      "level": "",
+      "keywords": ["MySQL","Oracle","PostgreSQL","MongoDB","Elasticsearch"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "",
+      "keywords": ["Bash","Python","GitlabCI","Jenkins","SonarQube","Github","Dependency Track","GNU/Linux (Ubuntu, Debian, Redhat)"]
+    },
+    {
+      "name": "Cloud",
+      "level": "",
+      "keywords": ["Kubernetes","Openshift","Docker","Google Cloud","Terraform","Ansible"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "Anglais"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

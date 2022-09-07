@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Alexandre Touret</title>
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <style>body, html {
+  padding-top:2.5em;
+  margin:0;
+  background-color:#fafafa;
+}
+
+.note {
+  display:block;
+  position: absolute;
+  top:10px;
+  left:10px;
+
+  font-family: "Open Sans";
+  font-size: 0.6em;
+}
+
+.new {
+  background-color: #81C784;
+
+  border: 1px solid #757575;
+  padding: 1px;
+  border-radius: 4px;
+
+}
+
+/* Header */
+
+header {
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
+ 
+}
+
+.header-content {
+  display: inline-block;
+}
+
+.pic {
+  margin: 0 auto;
+  margin-top:-2.5em;
+  
+  border-radius:10em;
+  height:4em;
+  width:4em;
+  
+  border: 2px solid #e0e0e0;
+  transition : all 0.5s linear;
+  
+}
+
+@-webkit-keyframes wiggle {
+  0%   {
+    transform: rotate(0deg);
+  }
+  25%  {
+    transform: rotate(-30deg);
+  }
+  50%  {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.pic:hover {
+  /*Webkit fix*/
+  -webkit-transform: translateZ(0);
+  
+  cursor:pointer;
+  
+  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.header-text {
+  margin-top:0.5em;
+  margin-left:1em;
+}
+
+header p {
+  text-align:center;
+  font-family: "Merriweather";
+  
+  margin:0;
+  
+  color: #212121;
+}
+
+.first-name {
+   font-size: 1.05em;
+}
+
+.subtitle {
+  font-family: "Merriweather";
+  padding-top:.3em;
+  font-size:0.55em;
+  font-weight:500;
+  color: #424242;
+}
+
+/* Information */
+
+.paper {
+  margin: 0 auto;
+  margin-bottom:1em;
+  
+  background-color:white;
+  width:60%;
+  
+  padding:0.5em 0 0.5em 0;
+  
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
+  border-radius:3px;
+}
+
+@media(max-width:992px) {
+  .paper {
+    width:80%;
+  }
+}
+
+/* Content Part */
+
+.content-wrapper {
+  padding-right:7.25%;
+}
+
+.content {
+  display:table;
+  width:100%;
+  
+  padding-top:1.5em;
+  
+  /*border-top: 1px solid #eeeeee;*/
+}
+
+.content:last-child {
+  margin-bottom: 2em;
+}
+
+body > div > article > div > section:last-child {
+  padding-bottom:1.5em;
+}
+
+.row {
+    display:table-row;
+}
+.row div {
+    display:table-cell;
+}
+
+.content-cat {
+  font-family: "Merriweather";
+  font-variant:small-caps;
+  font-weight:300;
+  letter-spacing: 1px;
+  
+  color: #212121;
+  
+  font-size:0.975em;
+  
+  text-align:center;
+  vertical-align:middle;
+
+  padding-left:6.66%;
+  width:30%;
+}
+
+.content-cat p {
+  font-size:0.55em;
+  font-weight:600;
+  
+  margin-bottom:0;
+}
+
+.content-text {
+  border-left:1px solid #e0e0e0;
+  transition: border 0.66s ease-in;
+}
+
+.big-text {
+  vertical-align:top;
+}
+
+.content-text ul {
+  padding:0;
+  margin:0;
+  margin-top:0.15em;
+  
+  width:85%;
+  margin-left:1.5em;
+}
+
+.content-text ul:last-child {
+  margin-bottom:0.5em;
+}
+
+.content-text ul li {
+  font-family: "Open Sans";
+  font-size:0.7em;
+  
+  display:inline-block;
+  
+}
+
+.content-text ul li:first-child {
+  width:35%;
+  
+  color: #424242;
+  
+  font-weight:600;
+}
+
+.content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.content-text ul li a:hover {
+  color:#4fc3f7;
+}
+
+.work-listing p {
+  font-family: "Open Sans";
+  font-size:0.7em;
+  
+  color: #424242;
+  
+  margin-left:2em;
+  margin-top:0.45em;
+  margin-bottom: 0.45em;
+}
+
+div.content-text.work-listing.education-listing > p:nth-child(2) {
+  margin-top:0.25em;
+}
+
+.work-listing .highlight {
+  font-family: "Open Sans";
+  font-size:0.7em;
+  font-weight:400;
+  
+  color: #424242;
+  
+  margin-left:3.25em;
+  
+  list-style-type: disc;
+  list-style-position: inside;
+  display: list-item;
+  
+}
+
+.education-listing > .heading {
+  font-weight:600;
+  
+  margin-top:0.75em;
+  margin-left:2em;
+}
+
+.education-listing > .highlight {
+  margin-left:3.25em;
+}
+
+.highlight {
+  transition: border .33s ease-in;
+}
+
+.profiles-listing ul li, .profiles-listing ul li:first-child {
+  width:32%;
+  font-weight: normal;
+}
+
+.work-content, .education-content {
+  padding-top: .75em;
+  page-break-inside: avoid;
+}
+
+section.content.education-content > div > div.content-cat {
+  vertical-align: top;
+}
+
+div.content-text.skills-listing > p {
+  font-family: "Open Sans";
+  font-size:0.7em;
+  font-weight:400;
+
+  margin-left: 2em;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+div.content-text.skills-listing > p > {
+  color:#212121;
+}
+
+@media screen and (max-width: 600px) {
+  body, html {
+    padding-top: 30px;
+  }
+
+  .paper {
+    width:95%;
+  }
+
+  .row div {
+    display: block;
+  }
+
+  .content-cat {
+    width: 100%;
+  }
+
+  .content-text ul li {
+    width: 100%;
+  }
+
+  .content-text ul li:first-child {
+    width: 100%;
+  }
+  
+  .education-listing > .highlight {
+    margin-left: 30px;
+  }
+}
+</style>
+  <style media="print">
+body, html {
+  background-color: white;
+  padding-top: 1.5em;
+  font-size: 104%;
+}
+
+.paper {
+  width:100%;
+  border: 0;
+
+  padding-top: 0;
+}
+
+header p {
+  font-size: 1.3em;
+}
+
+.subtitle {
+  font-size: 0.7em;
+}
+
+.header-pic {
+  float:left;
+}
+
+.profiles {
+  display:none;
+}
+
+.content {
+  page-break-inside:avoid; 
+  page-break-after:auto;
+}
+
+.header-text {
+  float:left;
+  margin-top: -1.6em;
+}
+
+.content-wrapper > .content:first-child {
+  padding-top: 2em;
+}
+
+.content:last-child {
+  padding-bottom: 0;
+}
+
+.content-cat {
+  width:33%;
+  color:black;
+  text-align: left;
+}
+
+.content-cat p {
+  font-size:0.6em;
+  font-weight: 600;
+}
+
+header p, .content-text, .work-listing p, .content-text ul li:first-child, .work-listing .highlight, .content-text.skills-listing > ul > li > .highlight {
+  color:black;
+}
+
+.content-text.skills-listing > ul > li span, .subtitle {
+  color:#212121;
+}
+
+.content-text ul:last-child {
+  margin-bottom: 0.25em;
+}
+
+.content-text ul li:first-child {
+  width:50%;
+}
+
+.profiles-listing ul li:first-child {
+  width:32%;
+}
+
+div.content-text.skills-listing > ul > li {
+  width:33%;
+}
+
+.work-listing p {
+  margin-bottom: 0.1em;
+}
+
+div.content-text.skills-listing > ul > li > p {
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+}
+
+div.content-text.skills-listing > ul > li {
+  padding-left: 1.5em;
+}
+
+div.content-text.skills-listing > ul > li:first-child {
+  padding-left: 2em;
+}
+
+.note {
+  display:none;
+}
+
+.content-text:hover {
+  border-left:1px solid #eeeeee;
+}
+
+.content-text ul li a:hover {
+  color:#4fc3f7;
+}
+
+.highlight:hover, .content-text.skills-listing > ul > li > .highlight:hover {
+  border-left:1px solid #eeeeee;
+}
+
+.big-text {
+  padding-top: 0;
+}
+</style>
+</head>
+<body>
+  <div class="resume-wrapper">
+    <article class="paper">
+        <header>
+          <div class="header-content">
+            <div class="header-text">
+              <p>
+                Alexandre Touret
+              </p>
+              <p class="subtitle">Senior Software Architect</p>
+            </div>
+          </div>
+        </header>
+        <div class="content-wrapper">
+          <!-- CONTACT -->
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Contact
+              </div>
+              <div class="content-text">
+                  <ul>
+                    <li>Email</li>
+                    <li><a href="mailto:alexandre@touret.info">alexandre@touret.info</a></li>
+                  </ul>
+                  <ul>
+                    <li>Phone</li>
+                    <li>+33 6 16 57 29 74</li>
+                  </ul>
+              </div>
+            </div>
+          </section>
+
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat">
+                    Location
+                  </div>
+                  <div class="content-text">
+                      <ul>
+                        <li>Address</li>
+                        <li>22 rue de la montagne</li>
+                      </ul>
+                        <ul>
+                          <li>Postal Code & City</li>
+                          <li>37530 St Ouen les Vignes</li>
+                        </ul>
+                  </div>
+                </div>
+              </section>
+
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Professional Skills Summary
+              </div>
+              <div class="content-text skills-listing">
+                  <p>
+                    <span class="name">
+                        <strong>
+                          API &amp; Integration:
+                        </strong>
+                    </span>
+                      API Design, REST, Apigee, SOA, TIBCO API Gateway, TIBCO Business Works, ActiveMQ
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Development:
+                        </strong>
+                    </span>
+                      Java, Spring (Boot/Cloud), JavaScript, UML, Quarkus
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Data:
+                        </strong>
+                    </span>
+                      MySQL, Oracle, PostgreSQL, MongoDB, Elasticsearch
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          CI/CD:
+                        </strong>
+                    </span>
+                      Bash, Python, GitlabCI, Jenkins, SonarQube, Github, Dependency Track, GNU/Linux (Ubuntu, Debian, Redhat)
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Cloud:
+                        </strong>
+                    </span>
+                      Kubernetes, Openshift, Docker, Google Cloud, Terraform, Ansible
+                  </p>
+              </div>
+            </div>
+          </section>
+
+
+        
+                <section class="content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                        Work  Experience
+                          <p>2022-02 to Present</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Senior Software Architect:</strong>
+                        </p>
+                        <p>Within the Mobility &amp; e-Transactional Services, I have been involved in the new electronic ticketing system of the Ile de France region which will impact million of locals and tourists. I have been part of the technical direction, striving with mid and long term complex studies and supporting developers on technical matters. Besides my daily job I usually speak at international tech conferences (Devoxx BE, JUG Summer Camp).</p>
+                          <p class="highlight">Drove technical studies on identity management and user federation based on Redhat SSO &amp; OpenID Connect</p>
+                          <p class="highlight">Supported developers on CI/CD and Openshift deployment matters</p>
+                          <p class="highlight">Built and shipped JAVA Spring &amp; NodeJS based technical micro services on Openshift</p>
+                          <p class="highlight">Technologies:  JAVA, SPRING, DOCKER, OPENSHIFT (KUBERNETES, HELM), GITLAB, REST, PostgreSQL, REDHATSSO, Typescript, NodeJS,ARTEMIS</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2018-05 to 2022-01</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Software Architect:</strong>
+                        </p>
+                        <p>Worldline is the payment industry european leader. Within the french acquiring departement, I led technically an eight development team. Besides my daily job in this Business Unit, I was strongly involved in the Expert Community. I led and drove workgroups (international context) about architecture design &amp; spoke at international tech conferences (DevoxxUK, JNation, SnowCampIO,...).</p>
+                          <p class="highlight">Promoted best practices for developers and designers</p>
+                          <p class="highlight">Designed, built, shpipped and promoted GITLABCI CI/CD pipelines to increase quality across all the french acquiring department projects </p>
+                          <p class="highlight">Drove two PCI DSS audit sessions presenting our software quality standards</p>
+                          <p class="highlight">Designed, built cloud native applications on top of Openshift, Spring, Apigee and MongoDB</p>
+                          <p class="highlight">Designed, shipped a cloud native application (99.95%SLA, 600+ TPS) on GCP using Kubernetes</p>
+                          <p class="highlight">Built and promoted the department technology radar</p>
+                          <p class="highlight">Participated to pre sales events</p>
+                          <p class="highlight">Led an expert workgroup which was responsible for creating and promoting architecture patterns repository</p>
+                          <p class="highlight">Audited three payment applications with strong requirements (99.95%SLA, 600+ TPS,...) reporting recommendations and risk analysis</p>
+                          <p class="highlight">Technologies:  JAVA, SPRING (BOOT,...),JAVAEE, DOCKER, OPENSHIFT (KUBERNETES, HELM), GITLAB, REST, MONGODB, Google Cloud Platform</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2011 to 2018</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Software Architect:</strong>
+                        </p>
+                        <p>Harmonie Mutuelle is one of the leader of the Health Insurance industry. Within the IT Architecture departement, I was in charge of </p>
+                          <p class="highlight">Led, drove a SOA adoption project, managing eight stakeholders with different profiles (ops, developers, IT architects). This platform aimed to promote service reusability across the Harmonie Mutuelle IT landscape (50+ services)</p>
+                          <p class="highlight">Shipped TIBCO Business Works platform and build associated tooling (scripts, CI/CD, monitoring)</p>
+                          <p class="highlight">Designed and created SOA standards and blueprints.</p>
+                          <p class="highlight">Shipped TIBCO API Management platform and built the associated tooling in Python to expose internal services to customers and partners</p>
+                          <p class="highlight">Built a CI platform, processes and libraries based on JENKINS, SONARQUBE and SONARQUBE</p>
+                          <p class="highlight">Advocated on code quality, unit testing</p>
+                          <p class="highlight">Supported developers on JAVAEE and Spring projects</p>
+                          <p class="highlight">Designed a DataHub platform and built POCs against Kafka and Spark</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2007 to 2012</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Software Architect / Analyst:</strong>
+                        </p>
+                        <p>Harmonie Mutuelle is one of the leader of the Health Insurance industry. Within the customer relationship management team, I drove the evolution of commercial costing system and was in charge of the setup and integration of ORACLE SIEBEL CRM. With these two platforms, Harmonie Mutuelle deployed and evolved its new products and merge its different commercial offers.</p>
+                          <p class="highlight">Designed, shipped Siebel CRM and OBIEE platforms and the associated tooling built with Perl</p>
+                          <p class="highlight">Maintained and developed new features of the costing application which enabled selling new insurance products</p>
+                          <p class="highlight">Built JAVA EE web services reaching Oracle SIEBEL API</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2005 to 2007</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Software Architect:</strong>
+                        </p>
+                        <p>Within the Chamber of Commerce IT department, I drove the adoption of the JAVA EE platform. This one has allowed to deploy applications to our internal and external customers.</p>
+                          <p class="highlight">Designed, built and shippped the JAVA EE platform based on Oracle Application Server</p>
+                          <p class="highlight">Provided technical support on Java to 5 developers</p>
+                          <p class="highlight">Shipped a portal platform based on Oracle Portal and Drupal</p>
+                          <p class="highlight">Technologies: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2004 to 2005</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Developer:</strong>
+                        </p>
+                        <p>Throughout three missions, I supported JAVA developers, held training sessions and built a document management framework in JAVA</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2001 to 2004</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Developer:</strong>
+                        </p>
+                        <p>Throughout different missions, I built JAVA EE based applications and held training sessions about JAVA development</p>
+                          <p class="highlight"></p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2000 to 2001</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Developer:</strong>
+                        </p>
+                        <p>Built JAVA EE based web sites and a financial management solution with JAVA SWING</p>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                        Education
+                          <p>1998 to 2000</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p style="margin-top:0;" class="heading">Université François Rabelais de Tours</p>
+                        <p class="highlight">
+                          Maitrise:
+                          <i>Informatique et Télécom </i>
+                        </p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content education-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>1992 to 1995</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p style="margin-top:0;" class="heading">Lycée Rabelais de Chinon</p>
+                        <p class="highlight">
+                          Bac:
+                          <i>S </i>
+                        </p>
+                    </div>
+                  </div>
+                </section>
+
+
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Languages
+                </div>
+                <div class="content-text">
+                    <ul>
+                        <li>Français</li>
+                        <li>Native Speaker</li>
+                    </ul>
+                    <ul>
+                        <li>Anglais</li>
+                        <li>Full Professional</li>
+                    </ul>
+                </div>
+              </div>
+            </section>
+
+
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                      Awards
+                      <p>Worldline Senior Expert</p>
+                      <p>2021</p>
+                  </div>
+                  <div class="content-text work-listing">
+                      <strong><p class="heading">Worldline</p></strong>
+                      <p class="highlight">Expertise Fields : Software Architecture , Software Engineering</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                      <p>Worldline Expert</p>
+                      <p>2019</p>
+                  </div>
+                  <div class="content-text work-listing">
+                      <strong><p class="heading">Worldline</p></strong>
+                      <p class="highlight">Expertise Fields : Software Architecture , Software Engineering</p>
+                  </div>
+                </div>
+              </section>
+
+
+            <!-- PROFILES -->
+              <section class="content profiles">
+                <div class="row">
+                  <div class="content-cat">
+                    Profiles
+                  </div>
+                  <div class="content-text profiles-listing">
+                    <ul>
+                          <li>
+                            <a href="https://www.linkedin.com/in/atouret/" target="_blank">
+                              LinkedIn
+                            </a>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+
+        </div>
+    </article>
+  </div>
+</body>
+</html>
