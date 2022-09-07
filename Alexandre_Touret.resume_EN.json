@@ -89,8 +89,11 @@
       "position": "Software Architect",
       "startDate": "2005",
       "endDate": "2007",
-      "highlights": ["Designed, built and shippped the JAVA EE platform based on Oracle Application Server"],
-      "summary": "As architect\n- Design of the JAVAEE platform\n- Design and implementation of the development environment ( standards, tools, ...)\n- Technical support\n- Implementation of an enterprise portal\n- SOA architecture design\n- Development of different frameworks\n\nEnvironnement: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS.",
+      "highlights": ["Designed, built and shippped the JAVA EE platform based on Oracle Application Server",
+    "Provided technical support on Java to 5 developers",
+    "Shipped a portal platform based on Oracle Portal and Drupal",
+  "Technologies: GNU/LINUX, Java(J2SE, J2EE, MAVEN, ANT, LOG4J, JUNIT, DBUNIT, HIBERNATE, SPRING, STRUTS, JSF, EJB,), Oracle AS 10G, ORACLE PORTAL, XML (XSD), UML, Services WEB,SQL, Oracle 9, Subversion, JASPER REPORTS"],
+      "summary": "Within the Chamber of Commerce IT department, I drove the adoption of the JAVA EE platform. This one has allowed to deploy applications to our internal and external customers.",
       "url": "https://www.cci-paris-idf.fr/fr",
       "location": "Paris"
     },
