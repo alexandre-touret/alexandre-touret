@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alexandre Touret",
-    "label": "Software Architect",
+    "label": "Senior Software Architect",
     "image": "",
     "email": "alexandre@touret.info",
     "phone": "+33 6 16 57 29 74",
@@ -98,7 +98,7 @@
       "startDate": "2004",
       "endDate": "2005",
       "highlights": [],
-      "summary": "As JAVA technical expert\n- Technical support for developers\n- Training sessions\n- Development of POCS and best practices\n- Development of a document management framework in JAVA",
+      "summary": "Throughout three missions, I supported JAVA developers, held training sessions and built a document management framework in JAVA",
       "url": "https://www.linkedin.com/company/cella-group/",
       "location": "Paris"
     },
@@ -108,7 +108,7 @@
       "startDate": "2001",
       "endDate": "2004",
       "highlights": [""],
-      "summary": "As JAVA developer:\nJAVA training session\nJAVA best practices documentation\nCreation of a  framework repository \nDesign with UML\nProject management within a team of three developers",
+      "summary": "Throughout different missions, I built JAVA EE based applications and held training sessions about JAVA development",
       "url": "https://www.linkedin.com/company/cgbi/",
       "location": "Issy les moulineaux, France"
     },
