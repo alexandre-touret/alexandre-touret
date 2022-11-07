@@ -1,7 +1,9 @@
 ## Who am I 
+[![mastodon](https://img.shields.io/badge/mastodon--lightgrey?style=social&logo=mastodon)](https://piaille.fr/alexandre)
 [![twitter](https://img.shields.io/badge/twitter--lightgrey?style=social&logo=twitter)](https://twitter.com/touret_alex)
 [![linkedin](https://img.shields.io/badge/linkedin--lightgrey?style=social&logo=linkedin)](https://www.linkedin.com/in/atouret/)
 [![blog](https://img.shields.io/badge/blog--lightgrey?style=social&logo=appveyor)](https://blog.touret.info/)
+
 
 ## 🔭 I’m currently working on 
 * Software architecture
