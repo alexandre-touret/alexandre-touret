@@ -24,8 +24,8 @@
 * Development best practices
 * CI/CD
 
-## 📫 How to reach me
-Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Twitter](https://twitter.com/touret_alex)
+## 📫 How to reach me?
+Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Mastodon](https://piaille.fr/alexandre)
 
 ## Resume
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
