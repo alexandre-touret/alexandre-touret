@@ -1,5 +1,5 @@
 ## Who am I 
-[![mastodon](https://img.shields.io/badge/mastodon--lightgrey?style=social&logo=mastodon)](https://piaille.fr/alexandre)
+[![mastodon](https://img.shields.io/badge/mastodon--lightgrey?style=social&logo=mastodon)](https://piaille.fr/@alexandre)
 [![twitter](https://img.shields.io/badge/twitter--lightgrey?style=social&logo=twitter)](https://twitter.com/touret_alex)
 [![linkedin](https://img.shields.io/badge/linkedin--lightgrey?style=social&logo=linkedin)](https://www.linkedin.com/in/atouret/)
 [![blog](https://img.shields.io/badge/blog--lightgrey?style=social&logo=appveyor)](https://blog.touret.info/)
@@ -25,7 +25,7 @@
 * CI/CD
 
 ## 📫 How to reach me?
-Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Mastodon](https://piaille.fr/alexandre)
+Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Mastodon](https://piaille.fr/@alexandre)
 
 ## Resume
 You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
