@@ -1,31 +1,18 @@
-## Who am I 
-[![mastodon](https://img.shields.io/badge/mastodon--lightgrey?style=social&logo=mastodon)](https://piaille.fr/@alexandre)
-[![twitter](https://img.shields.io/badge/twitter--lightgrey?style=social&logo=twitter)](https://twitter.com/touret_alex)
-[![linkedin](https://img.shields.io/badge/linkedin--lightgrey?style=social&logo=linkedin)](https://www.linkedin.com/in/atouret/)
-[![blog](https://img.shields.io/badge/blog--lightgrey?style=social&logo=appveyor)](https://blog.touret.info/)
+### Hey there 👋, I am [Alexandre](https://blog.touret.info/)! 
 
+Hello, I am Alexandre Touret. 
+I am a senior software architect with 20+ years' experience passionate about technology, cloud and development. 
+Throughout my career,I have designed, built and managed systems from small to large in various business contexts such as insurance, financial services or mobility industries. I then enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles.
 
-## 🔭 I’m currently working on 
-* Software architecture
-* Cloud computing
-* Observability 
-* Java platform with Spring stack
+- 🔭 I’m currently working on software architecture, cloud computing (mostly on GCP) and observability
+- 💬 Ask me about software architecture, design or Java development
+- 📫 How to reach me: check out my [LinkedIn profile](https://www.linkedin.com/in/atouret/)
+- 📝 You could also get my resume on my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
 
-## 🌱 I’m currently learning 
-* Google Cloud Platform
-* Keycloak
+**Languages and Tools:** 
 
-## 👯 I’m looking to collaborate on 
-* Any (Java & Cloud oriented) project 
-* Presenting tech conferences
- 
-## 💬 Ask me about 
-* Software architecture
-* Development best practices
-* CI/CD
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,java,spring,gitlab,github,opentelemetrys&perline=3)](https://skillicons.dev)
 
-## 📫 How to reach me?
-Using either [LinkedIn](https://www.linkedin.com/in/atouret/) or [Mastodon](https://piaille.fr/@alexandre)
+**Articles**
 
-## Resume
-You could get it in my [LinkedIn profile](https://www.linkedin.com/in/atouret/).
+I post on a regularly articles on my [personal blog](https://blog.touret.info) and on the [Worldline Engineering blog](https://blog.worldline.tech/).
