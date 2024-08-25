@@ -15,4 +15,4 @@ Throughout my career,I have designed, built and managed systems from small to la
 
 **Articles**
 
-I post on a regularly articles on my [personal blog](https://blog.touret.info) and on the [Worldline Engineering blog](https://blog.worldline.tech/).
+I regularly post articles on my [personal blog](https://blog.touret.info) and on the [Worldline Engineering blog](https://blog.worldline.tech/).
