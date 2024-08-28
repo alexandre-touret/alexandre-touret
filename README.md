@@ -11,7 +11,7 @@ Throughout my career,I have designed, built and managed systems from small to la
 
 **Languages and Tools:** 
 
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,java,spring,gitlab,github,postgresql,openshift,kubernetes,docker,mongodb,grafana,linux,&perline=5)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,java,spring,gitlab,github,postgresql,openshift,kubernetes,docker,mongodb,grafana,linux,elasticsearch,git,githubactions,gradle,hibernate,idea,js,jenkins,maven,mysql,nodejs,npm,postman,redhat,ts,ubuntu,&perline=5)](https://skillicons.dev)
 
 **Articles**
 
